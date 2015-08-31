@@ -1,0 +1,173 @@
+.tts-wrap {
+	position: relative;
+}
+
+.tts-wrap .parent-cat-label {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	color: #A9A9A9;
+	font-size: 12px;
+}
+
+.tts-wrap .arrow-select-indicator {
+	position: absolute;
+	right: 0.5em;
+	top: 1em;
+	color: #A9A9A9;
+	font-size: 14px;
+}
+
+.ui-typetosearch {
+	position: absolute;
+	display: none;
+	border: 1px solid #dddddd;
+	overflow: auto;
+	z-index: 9000;
+}
+
+.ui-typetosearch a {
+	text-decoration: none;
+}
+
+.ui-typetosearch-placeholder {
+	box-sizing: border-box;
+}
+
+.ui-typetosearch .tts-values-wrap {
+	background: #F5F5F5;
+}
+
+.ui-typetosearch .tts-values-list {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	/*padding: 0.75em 0.5em; */
+}
+
+.ui-typetosearch .tts-values-list .no-items-found {
+	margin: 0;
+}
+
+.ui-typetosearch input {
+	border-radius: 0;
+}
+
+.ui-typetosearch a.v2-btn {
+	border-radius: 0;
+} 
+
+.ui-typetosearch .tts-values-list li {
+	display: block;
+	position: relative;
+	font-size: 14px;
+}
+
+.ui-typetosearch .tts-values-list li.item-editing {
+	background: #FFFFEF;
+	font-size: 12px;
+}
+
+.ui-typetosearch .tts-values-list li.item-editing input[type="text"],
+.ui-typetosearch .tts-values-list li.item-editing input[type="email"] {
+	padding: 0.5em 1em;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.ui-typetosearch .tts-values-list li:not(.item-editing) a {
+	color: #404040;
+	text-decoration: none;
+	display: block;
+}
+
+.ui-typetosearch .tts-values-list li.item-editing a.item-edit-save-btn {
+	font-size: 14px;
+}
+
+.ui-typetosearch .tts-values-list li a.list-item {
+	padding: 0.75em;
+	position: relative;
+}
+
+.ui-typetosearch .tts-values-list li a.selectable-parent-list-item {
+	font-weight: 600;
+}
+
+.ui-typetosearch .tts-values-list li:hover a.list-item,
+.ui-typetosearch .tts-values-list li.curr-nav a.list-item  {
+	background: #63A5ED;
+	color: #FFFFFF;
+}
+
+.ui-typetosearch .tts-values-list li .arrow-indicator {
+	float: right;
+}
+
+.ui-typetosearch .tts-values-list li .item-parent {
+	font-size: 12px;
+	color: #909090;
+	float: right;
+}
+
+.ui-typetosearch li.no-item {
+	padding: 0.75em 0.5em;
+	font-size: 14px;
+	color: #F23535;
+}
+
+.ui-typetosearch .back-btn-wrap,
+.ui-typetosearch .add-item-wrap {
+	padding: 0.75em 0.5em;
+}
+
+.ui-typetosearch .back-btn-wrap a,
+.ui-typetosearch .add-item-wrap a {
+	color: #63A5ED;
+	font-size: 12px;
+}
+
+.ui-typetosearch .list-item .icomoon {
+	line-height: 10px;
+	color: #d2e5fb;
+}
+
+.ui-typetosearch .list-item .icomoon.arrow-indicator {
+	color: #424242;
+}
+
+.ui-typetosearch .edit-list-item .icomoon.icon-pencil2 {
+	font-size: 12px;
+}
+
+.ui-typetosearch .remove-list-item .icomoon.icon-close2 {
+	font-size: 14px;
+}
+
+.ui-typetosearch .list-item > span:hover .icomoon {
+	color: #ffffff;
+}
+
+.ui-typetosearch .edit-list-item, .ui-typetosearch .remove-list-item {
+	display: none;
+	position: absolute;
+	top: 0.75em;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+}
+
+.ui-typetosearch .edit-list-item {
+	/*margin-right: 7px;*/
+	right: 30px;
+}
+
+.ui-typetosearch .remove-list-item {
+	right: 10px;
+}
+
+.ui-typetosearch li:hover a > .edit-list-item, .ui-typetosearch li:hover a > .remove-list-item {
+	display: block;
+}
