@@ -1,0 +1,27 @@
+p {
+	margin: 0 0 0.5rem;
+}
+
+input.ui-typetosearch-placeholder {
+	width: 350px;
+}
+
+table.instruction tr {
+	vertical-align: top;
+}
+
+table.instruction td li {
+	list-style-position: outside;
+	margin-left: 2rem;
+}
+
+.syntax-highlight code {
+	background: none;
+	border: none;
+	border-radius: 0;
+	font-size: 1.3rem;
+	margin: 0;
+	padding: 0;
+	white-space: pre;
+}
+
