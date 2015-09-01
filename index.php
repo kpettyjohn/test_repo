@@ -1,5 +1,5 @@
 <?php
 
-$string = "Hello World!";
+$my_var = 12;
 
-echo $string;
+echo "hello world!";
