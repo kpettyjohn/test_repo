@@ -1,3 +1,5 @@
 <?php
 
-echo "hello world!";
+$string = "Hello World!";
+
+echo $string;
