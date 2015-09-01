@@ -21,7 +21,7 @@ table.instruction td li {
 	border-radius: 0;
 	font-size: 1.3rem;
 	margin: 0;
-	padding: 0;
+	padding: 2px;
 	white-space: pre;
 }
 
